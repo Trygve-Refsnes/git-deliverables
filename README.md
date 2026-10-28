@@ -1,2 +1,2 @@
-# git-deliverable1
-Uke 42-43 oblig
+# git-deliverables
+Obligatoriske deliverables i INF201
