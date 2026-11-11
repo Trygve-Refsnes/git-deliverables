@@ -6,7 +6,7 @@ class Character:
         Args:
         name (str): The name of the character.
         hp_max (int): Max hit points (default = 100)
-        damage (int): Damage delt when character attacks (default = 10)
+        damage (int): Damage dealt when character attacks (default = 10)
         """
         self.name = name
         self._hp = hp_max # Note: _hp indicated private attribute
@@ -42,18 +42,17 @@ class Character:
     def take_damage(self, amount: int) -> None:
         """Reduces the character's HP by the specified amount of damage."""
         self._hp -= amount
+        self._hp = min(self._hp, self.hp_max)  # Ensure HP does not exceed max HP
         self._hp = max(self._hp, 0)  # Ensure HP does not go below 0
 
     def heal(self, amount: int) -> None:
         """Increases the character's HP by the specified amount, up to the maximum HP."""
         self._hp += amount
         self._hp = min(self._hp, self.hp_max)  # Ensure HP does not exceed max HP
+        self._hp = max(self._hp, 0) # Ensure HP does not go below 0
 
     @property
     def is_alive(self) -> bool:
         """Returns True if the character is alive (HP > 0), otherwise False."""
         return self._hp > 0
 
-
-hero = Character("Hero", hp_max=100, damage=10)
-enemy = Character("Enemy", hp_max=50)
