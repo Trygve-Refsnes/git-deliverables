@@ -57,10 +57,3 @@ class Character:
 
 hero = Character("Hero", hp_max=100, damage=10)
 enemy = Character("Enemy", hp_max=50)
-
-hero.take_damage(200)
-print(hero.hp)
-print(hero.is_alive)
-
-hero.heal(200)
-print(hero.hp)
