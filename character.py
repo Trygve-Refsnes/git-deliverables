@@ -68,4 +68,18 @@ class Character:
     def is_alive(self) -> bool:
         """Returns True if the character is alive (HP > 0), otherwise False."""
         return self._hp > 0
+    
 
+class warrior(Character):
+    """Represents a warrior character in the RPG"""
+
+
+    def __init__(self, name: str, armor: int = 5):
+        super().__init__(name)
+        self.armor = armor
+
+    def take_damage(self, amount: int) -> None:
+        # Calculate damage after armor reduction
+        damage_after_armor = max(0, amount - self.armor)
+        super().take_damage(damage_after_armor)
+        return damage_after_armor  # Return the actual damage taken after armor reduction
