@@ -17,6 +17,8 @@ class Character:
         damage (int): Damage dealt when character attacks (default = 10)
         weapon (Weapon, optional): The weapon the character wields (default = None)
         """
+        if hp_max < 0:
+            raise ValueError("Maximum HP must be non-negative.")
         self.name = name
         self._hp = hp_max # Note: _hp indicated private attribute
         self.hp_max = hp_max
