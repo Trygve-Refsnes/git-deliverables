@@ -27,6 +27,7 @@ class Dice:
     
 
     def __call__(self)-> int:
+        """Allow the dice object to be called directly to roll it."""
         return self.roll()
 
 d2 = Dice(2)
@@ -37,3 +38,4 @@ assert d2.sides == 2
 assert repr(d6) == "Dice(sides=6)"
 assert 1 <= d20.roll() <= 20
 assert 1 <= d20() <= 20
+
