@@ -221,6 +221,7 @@ __marimo__/
 # Python virtual environments
 .venv/
 .venv_d2/
+venv_d3/
 
 # Python cache files
 __pycache__/
