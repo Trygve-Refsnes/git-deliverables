@@ -91,16 +91,16 @@ class Mage(Character):
         super().__init__(name, **kwargs)
         self.mana = mana
         self.mana_max = mana_max
+        self.mana = min(self.mana, self.mana_max)  # Ensure mana does not exceed max mana
+        self.mana = max(self.mana, 0)  # Ensure mana does not go below 0
 
     def attack(self, target) -> None:
         """Attack a target using magic if enough mana is available, otherwise base damage."""
         if self.mana >= 10:
             damage = self.damage * 2  # Magic attack deals double damage
             self.mana -= 10  # Consume mana for magic attack
+            target.take_damage(damage)
         else:
-            if self.weapon is not None:
-                damage = self.weapon.roll_damage()
-            else:
-                damage = self.damage
+            super().attack(target)
             self.mana += 5
-        target.take_damage(damage)
+            self.mana = min(self.mana, self.mana_max)
