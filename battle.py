@@ -26,7 +26,7 @@ class Battle:
         rounds = 0
         while self.hero.is_alive and self.enemy.is_alive:
             if rounds >= max_rounds:
-                raise RuntimeError("Battle reached the round limit without a winner.")
+                raise RuntimeError("The battle has lasted eons! Return home champions.")
             self.play_round()
             rounds += 1
             print(f"{self.hero.name} HP: {self.hero.hp}, {self.enemy.name} HP: {self.enemy.hp}")
