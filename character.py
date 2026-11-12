@@ -91,6 +91,7 @@ class Mage(Character):
         super().__init__(name, **kwargs)
         self.mana = mana
         self.mana_max = mana_max
+        self.mana_max = max(self.mana_max, 0)  # Ensure max mana is not negative
         self.mana = min(self.mana, self.mana_max)  # Ensure mana does not exceed max mana
         self.mana = max(self.mana, 0)  # Ensure mana does not go below 0
 
