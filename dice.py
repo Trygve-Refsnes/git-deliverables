@@ -10,10 +10,10 @@ class Dice:
         Args:
         sides (int): The number of sides on the dice (default = 6)
         """
-        if sides > 2:
+        if sides >= 2:
             self.sides = sides
         else:
-            raise ValueError("Dice must have more than 2 sides.")
+            raise ValueError("Dice must have at least 2 sides.")
         
 
     def roll(self) -> int:
@@ -23,9 +23,17 @@ class Dice:
 
     def __repr__(self) -> str:
         """Representation of dice object"""
-        return f"<Dice sides={self.sides}>"
+        return f"Dice(sides={self.sides})"
     
 
-    def __call__(self):
+    def __call__(self)-> int:
         return self.roll()
 
+d2 = Dice(2)
+d6 = Dice()
+d20 = Dice(20)
+
+assert d2.sides == 2
+assert repr(d6) == "Dice(sides=6)"
+assert 1 <= d20.roll() <= 20
+assert 1 <= d20() <= 20
