@@ -1,23 +1,53 @@
-* 1b1710d - Trygve-Refsnes, 13 seconds ago : Complete deliverable 3 notebook, validation and submission artifacts
-* bdb646d - Trygve-Refsnes, 31 minutes ago : added proper notation to notebook
-* 5654bd1 - Trygve-Refsnes, 43 minutes ago : added new print statements
-* e88708f - Trygve-Refsnes, 46 minutes ago : removed unnescesary breaks
-* bd492ce - Trygve-Refsnes, 54 minutes ago : added print staments and inhereting attacks
-* 74554d2 - Trygve-Refsnes, 58 minutes ago : added initial functions for battle
-* bd0fb8e - Trygve-Refsnes, 69 minutes ago : changes to inheritance for mage class
-* 6595e47 - Trygve-Refsnes, 74 minutes ago : added mana mechanics
-* 68e6511 - Trygve-Refsnes, 82 minutes ago : added kwargs to subclass
-* a7be9f8 - Trygve-Refsnes, 84 minutes ago : added armor mecahnic
-* 26ae8b5 - Trygve-Refsnes, 2 hours ago : added the new class being called to character
-* 37d337c - Trygve-Refsnes, 2 hours ago : changes to gitignore
-* 8a46d20 - Trygve-Refsnes, 2 hours ago : changed venv
-* 6e0b077 - Trygve-Refsnes, 2 hours ago : renamed weapons to items
-* 07e7608 - Trygve-Refsnes, 2 hours ago : added initial weapon code
-* ee4964e - Trygve-Refsnes, 2 hours ago : added a docstring
-* da3aad0 - Trygve-Refsnes, 2 hours ago : added a test statement
-* 5a9cf6f - Trygve-Refsnes, 3 hours ago : added initial functions and methods to dice
-* 36f98c1 - Trygve-Refsnes, 17 hours ago : finalizing tests, moving to jupyter notebook
-* 26418cc - Trygve-Refsnes, 17 hours ago : removed test statement
+* 7be056f - Trygve-Refsnes, 11 minutes ago : Added genAI discussion
+* 8d52b43 - Trygve-Refsnes, 62 minutes ago : removed files unnescessary for delivery, made changes to readme
+* f3e3bde - Trygve-Refsnes, 70 minutes ago : Include submission commit log and preserve PDF binary data
+* 1b1710d - Trygve-Refsnes, 70 minutes ago : Complete deliverable 3 notebook, validation and submission artifacts
+* bdb646d - Trygve-Refsnes, 2 hours ago : added proper notation to notebook
+* 5654bd1 - Trygve-Refsnes, 2 hours ago : added new print statements
+* e88708f - Trygve-Refsnes, 2 hours ago : removed unnescesary breaks
+* bd492ce - Trygve-Refsnes, 2 hours ago : added print staments and inhereting attacks
+* 74554d2 - Trygve-Refsnes, 2 hours ago : added initial functions for battle
+* bd0fb8e - Trygve-Refsnes, 2 hours ago : changes to inheritance for mage class
+* 6595e47 - Trygve-Refsnes, 2 hours ago : added mana mechanics
+* 68e6511 - Trygve-Refsnes, 3 hours ago : added kwargs to subclass
+* a7be9f8 - Trygve-Refsnes, 3 hours ago : added armor mecahnic
+* 26ae8b5 - Trygve-Refsnes, 3 hours ago : added the new class being called to character
+* 37d337c - Trygve-Refsnes, 3 hours ago : changes to gitignore
+* 8a46d20 - Trygve-Refsnes, 3 hours ago : changed venv
+* 6e0b077 - Trygve-Refsnes, 3 hours ago : renamed weapons to items
+* 07e7608 - Trygve-Refsnes, 3 hours ago : added initial weapon code
+* ee4964e - Trygve-Refsnes, 4 hours ago : added a docstring
+* da3aad0 - Trygve-Refsnes, 4 hours ago : added a test statement
+* 5a9cf6f - Trygve-Refsnes, 4 hours ago : added initial functions and methods to dice
+* 36f98c1 - Trygve-Refsnes, 18 hours ago : finalizing tests, moving to jupyter notebook
+* 26418cc - Trygve-Refsnes, 18 hours ago : removed test statement
+* 269c64f - Trygve-Refsnes, 18 hours ago : added multiple new functions, finetuning
+* 212a005 - Trygve-Refsnes, 23 hours ago : added initial py files
+* 1e7d335 - Trygve-Refsnes, 23 hours ago : Deleted previous deliverable, created new file
+:
+* 7be056f - Trygve-Refsnes, 11 minutes ago : Added genAI discussion
+* 8d52b43 - Trygve-Refsnes, 62 minutes ago : removed files unnescessary for delivery, made changes to readme
+* f3e3bde - Trygve-Refsnes, 70 minutes ago : Include submission commit log and preserve PDF binary data
+* 1b1710d - Trygve-Refsnes, 70 minutes ago : Complete deliverable 3 notebook, validation and submission artifacts
+* bdb646d - Trygve-Refsnes, 2 hours ago : added proper notation to notebook
+* 5654bd1 - Trygve-Refsnes, 2 hours ago : added new print statements
+* e88708f - Trygve-Refsnes, 2 hours ago : removed unnescesary breaks
+* bd492ce - Trygve-Refsnes, 2 hours ago : added print staments and inhereting attacks
+* 74554d2 - Trygve-Refsnes, 2 hours ago : added initial functions for battle
+* bd0fb8e - Trygve-Refsnes, 2 hours ago : changes to inheritance for mage class
+* 6595e47 - Trygve-Refsnes, 2 hours ago : added mana mechanics
+* 68e6511 - Trygve-Refsnes, 3 hours ago : added kwargs to subclass
+* a7be9f8 - Trygve-Refsnes, 3 hours ago : added armor mecahnic
+* 26ae8b5 - Trygve-Refsnes, 3 hours ago : added the new class being called to character
+* 37d337c - Trygve-Refsnes, 3 hours ago : changes to gitignore
+* 8a46d20 - Trygve-Refsnes, 3 hours ago : changed venv
+* 6e0b077 - Trygve-Refsnes, 3 hours ago : renamed weapons to items
+* 07e7608 - Trygve-Refsnes, 3 hours ago : added initial weapon code
+* ee4964e - Trygve-Refsnes, 4 hours ago : added a docstring
+* da3aad0 - Trygve-Refsnes, 4 hours ago : added a test statement
+* 5a9cf6f - Trygve-Refsnes, 4 hours ago : added initial functions and methods to dice
+* 36f98c1 - Trygve-Refsnes, 18 hours ago : finalizing tests, moving to jupyter notebook
+* 26418cc - Trygve-Refsnes, 18 hours ago : removed test statement
 * 269c64f - Trygve-Refsnes, 17 hours ago : added multiple new functions, finetuning
 * 212a005 - Trygve-Refsnes, 21 hours ago : added initial py files
 * 1e7d335 - Trygve-Refsnes, 22 hours ago : Deleted previous deliverable, created new file
