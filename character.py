@@ -83,3 +83,24 @@ class Warrior(Character):
         damage_after_armor = max(0, amount - self.armor)
         super().take_damage(damage_after_armor)
 
+class Mage(Character):
+    """Represents a mage character in the RPG"""
+
+        
+    def __init__(self, name: str, mana: int = 30, mana_max: int = 30, **kwargs):
+        super().__init__(name, **kwargs)
+        self.mana = mana
+        self.mana_max = mana_max
+
+    def attack(self, target) -> None:
+        """Attack a target using magic if enough mana is available, otherwise base damage."""
+        if self.mana >= 10:
+            damage = self.damage * 2  # Magic attack deals double damage
+            self.mana -= 10  # Consume mana for magic attack
+        else:
+            if self.weapon is not None:
+                damage = self.weapon.roll_damage()
+            else:
+                damage = self.damage
+            self.mana += 5
+        target.take_damage(damage)
